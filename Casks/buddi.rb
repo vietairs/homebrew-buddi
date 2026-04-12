@@ -1,6 +1,6 @@
 cask "buddi" do
-  version "0.1.3"
-  sha256 "5be525a580db3bbf2c2f257d098e3aac8ea0839a718a8fdee18625293610c88c"
+  version "0.1.4"
+  sha256 "7a36cd0e7148cad3e8905bc4da8bd42e9a1679da7f8c2663bee9eba28f44f27b"
 
   url "https://github.com/vietairs/Buddi/releases/download/v#{version}/buddi-#{version}.dmg"
   name "Buddi"
@@ -19,7 +19,7 @@ cask "buddi" do
 
   caveats <<~EOS
     Buddi is not notarized. After installation, run:
-      sudo xattr -dr com.apple.quarantine #{appdir}/buddi.app
+      sudo xattr -dr com.apple.quarantine \#{appdir}/buddi.app
     Then reopen the app.
   EOS
 
