@@ -17,6 +17,12 @@ cask "buddi" do
 
   app "buddi.app"
 
+  caveats <<~EOS
+    Buddi is not notarized. After installation, run:
+      sudo xattr -dr com.apple.quarantine #{appdir}/buddi.app
+    Then reopen the app.
+  EOS
+
   uninstall quit: "com.talkvalue.buddi"
 
   zap trash: [
