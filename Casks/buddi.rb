@@ -1,8 +1,8 @@
 cask "buddi" do
-  version "0.1.2"
-  sha256 "2916e544e717e667816fc8547f60e23dbe60729c01debced0ad33f5e708b30eb"
+  version "0.1.3"
+  sha256 "5be525a580db3bbf2c2f257d098e3aac8ea0839a718a8fdee18625293610c88c"
 
-  url "https://github.com/vietairs/Buddi/releases/download/v#{version}/Buddi.dmg"
+  url "https://github.com/vietairs/Buddi/releases/download/v#{version}/buddi-#{version}.dmg"
   name "Buddi"
   desc "Claude Code companion for the macOS notch"
   homepage "https://github.com/vietairs/Buddi"
