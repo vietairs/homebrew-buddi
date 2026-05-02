@@ -1,6 +1,6 @@
 cask "buddi" do
-  version "0.2.2"
-  sha256 "b7c5e0bcab1dc8a081c4afdce56df1817ec75f1046889fd0a80946a91285b499"
+  version "0.2.3"
+  sha256 "25d1e2cb36f351f609b447ea338d656bf4de1b987b80fa3538cfae393d25642f"
 
   url "https://github.com/vietairs/Buddi/releases/download/v#{version}/buddi-#{version}.dmg"
   name "Buddi"
